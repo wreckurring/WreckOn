@@ -1,2 +1,0 @@
-# WreckOn
-Music Streaming Platform
