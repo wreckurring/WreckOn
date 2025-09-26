@@ -36,15 +36,6 @@ A basic, fully responsive music player interface built using **HTML**, **CSS**, 
 The actual **MP3 audio files are excluded** from this public repository (`.mp3` is in `.gitignore`) for size and licensing reasons.
 
 The player is functional, but to hear audio, you must manually add your own files:
-* Place ten `.mp3` files, named sequentially from `1.mp3` up to `10.mp3`, into the **`songs/`** subdirectory.
+* Place ten `.mp3` files, named sequentially from `1.mp3` up to `10.mp3`, into the **`assets/songs/`** subdirectory.
 
 ***
-
-## Future Enhancements & Current Fixes Needed
-
-The project is ready for its next phase of development. Focus areas include:
-
--   [ ] **Dynamic Time:** Implement display for current playback time and total track duration.
--   [ ] **Branding:** Update all remaining "Spotify" branding/text in `index.html` and `app.js` to "WreckOn."
--   [ ] **Data:** Update placeholder song names (e.g., "XYZ") in `app.js` with actual track titles.
--   [ ] **Error Handling:** Add a check to reset the playback controls if a song file is missing or fails to load.
