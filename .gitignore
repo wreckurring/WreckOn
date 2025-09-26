@@ -1,0 +1,5 @@
+# Ignore all large media files
+*.mp3
+
+# Ignore system files
+.DS_Store
