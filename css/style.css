@@ -47,7 +47,8 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url("bg.jpg");
+  /* Background Image Path Corrected: ../ means go up one directory (out of css/) then into assets/ */
+  background-image: url("../assets/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -79,7 +80,7 @@ nav ul li {
 }
 
 .songItemContainer {
-    margin-top: 34px;
+  margin-top: 34px;
 }
 
 .songItem {
@@ -105,31 +106,31 @@ nav ul li {
   margin: 0 5px;
   display: flex;
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 
 .timestamp i {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .songListPlay {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .songName {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .songInfo {
-    position: absolute;
-    left:10vw;
-    font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
 }
 
 .songInfo img {
-    opacity: 0;
-    transition: opacity 0.4s ease-in;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
 }
