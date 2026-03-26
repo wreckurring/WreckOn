@@ -50,23 +50,6 @@ let songs = [
 ];
 
 // Dynamically generate song list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 songs.forEach((song, i) => {
   let html = `
     <div class="songItem">
